@@ -26,7 +26,7 @@ console.log("o tipo da variável é:" + tipodevar);
 
 
 ESTRUTURA CONDICIONAL 
-1. Crie um programa que pede ao usuário para inserir um número e, em seguida, verifica se é positivo, negativo ou zero. Se for positivo, verifique se é ímpar ou par. 
+3. Crie um programa que pede ao usuário para inserir um número e, em seguida, verifica se é positivo, negativo ou zero. Se for positivo, verifique se é ímpar ou par. 
 
 let numero = prompt("Digite um número:"); 
 if (numero > 0) { 
@@ -40,7 +40,7 @@ if (numero > 0) {
 }
 
 
-2. Peça ao usuário para inserir um dia da semana (usando números de 1 a 7) e, com base nesse número, informe o nome do dia correspondente. 
+4. Peça ao usuário para inserir um dia da semana (usando números de 1 a 7) e, com base nesse número, informe o nome do dia correspondente. 
 const diaSemana = parseInt(prompt("Insira um número de 1 a 7 para representar um dia da semana:"));
 
 
@@ -71,7 +71,7 @@ switch (parseInt(diaSemana)){
         
 }
 
-3. Solicite ao usuário para inserir duas strings. Verifique se ambas têm o mesmo comprimento e se tiverem o mesmo comprimento,
+5. Solicite ao usuário para inserir duas strings. Verifique se ambas têm o mesmo comprimento e se tiverem o mesmo comprimento,
 informe o resultado. 
 
 
@@ -86,7 +86,7 @@ if(string1.length===string2.length) {
 }
 
 
-4. Peça ao usuário para inserir dois números e, usando operadores lógicos, verifique se ambos são pares, ímpares ou se um é par e o outro é ímpar.meros e,
+6. Peça ao usuário para inserir dois números e, usando operadores lógicos, verifique se ambos são pares, ímpares ou se um é par e o outro é ímpar.meros e,
 usando operadores lógicos, verifique se ambos são pares, ímpares ou se um é par e o outro é ímpar
 
 
@@ -108,7 +108,7 @@ if (numero1 % 2 === 0 && numero2 % 2 === 0) {
 
 
 Laços de Repetição
-5. Escreva um programa em JavaScript que utilize um loop "while" para imprimir os quadrados dos números de 1 a 5. 
+6. Escreva um programa em JavaScript que utilize um loop "while" para imprimir os quadrados dos números de 1 a 5. 
 
 
 
@@ -126,7 +126,7 @@ while (numero <= 5) {
 
 
 
-6. Crie uma função em JavaScript chamada imprimePares que recebe um número como parâmetro e imprime todos os números pares de 0 até
+7. Crie uma função em JavaScript chamada imprimePares que recebe um número como parâmetro e imprime todos os números pares de 0 até
 esse número. Teste a função com um valor de sua escolha. (Utilize o laço de repetição for) 
 
 
@@ -144,7 +144,7 @@ imprimePares(10);
 
 
 Arrays 
-7. Crie um array em JavaScript com nomes de frutas. Em seguida, utilize um loop "for" para percorrer o array e imprimir cada nome de fruta. 
+8. Crie um array em JavaScript com nomes de frutas. Em seguida, utilize um loop "for" para percorrer o array e imprimir cada nome de fruta. 
 let frutas = ["Maçã", "Banana", "Laranja", "Morango", "Uva"];
 
 for (let i = 0; i < frutas.length; i++) {
@@ -154,7 +154,7 @@ for (let i = 0; i < frutas.length; i++) {
 
 
 
-8. Inicie um array vazio em JavaScript chamado numeros. Utilize um loop "for" para adicionar os números de 1 a 5 ao array. Ao final, imprima o conteúdo do array. 
+9. Inicie um array vazio em JavaScript chamado numeros. Utilize um loop "for" para adicionar os números de 1 a 5 ao array. Ao final, imprima o conteúdo do array. 
 let numeros = [];
 
 for (let i = 1; i <= 5; i++) {
@@ -165,7 +165,7 @@ console.log(numeros);
 
 
 Funções 
-9. Escreva uma função em JavaScript chamada multiplicaElementos que recebe um array de números como parâmetro e retorna
+10. Escreva uma função em JavaScript chamada multiplicaElementos que recebe um array de números como parâmetro e retorna
 o resultado da multiplicação de todos os elementos do array. Teste a função com um array de sua escolha.
 
 
@@ -185,7 +185,7 @@ console.log(resultadoDaMultiplicacao);
 
 
 
-10. Escreva uma função chamada calculaMaiorNumero em JavaScript que recebe dois números como parâmetros e retorna o maior deles.
+11. Escreva uma função chamada calculaMaiorNumero em JavaScript que recebe dois números como parâmetros e retorna o maior deles.
 Teste a função com diferentes pares de números.
 
 
