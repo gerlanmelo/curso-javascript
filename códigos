@@ -12,7 +12,12 @@ console.log(numero3 * numero4)
 console.log(numero4 + numero5)
 console.log(numero5 / numero1)
 
+
+
+
 2. Solicite ao usuário para inserir um número e verifique o tipo de da variável. 
+
+
 var tipodevar = typeof 5;
 var numero = prompt("insira um número:");
 console.log("o tipo da variável é:" + tipodevar);
@@ -72,9 +77,18 @@ var string2 = prompt("insira a segunda string:");
 if(string1.length===string2.length) {
     console.log("As strings tem o mesmo tamanho");
 } else{ console.log("As strings não tem o mesmo tamanho"); 
+
+
+
 }
 
-4. Peça ao usuário para inserir dois números e, usando operadores lógicos, verifique se ambos são pares, ímpares ou se um é par e o outro é ímpar.meros e, usando operadores lógicos, verifique se ambos são pares, ímpares ou se um é par e o outro é ímpar
+
+4. Peça ao usuário para inserir dois números e, usando operadores lógicos, verifique se ambos são pares, ímpares ou se um é par e o outro é ímpar.meros e,
+usando operadores lógicos, verifique se ambos são pares, ímpares ou se um é par e o outro é ímpar
+
+
+
+
 let numero1 = prompt("Digite o primeiro número:");
 let numero2 = prompt("Digite o segundo número:");
 
@@ -84,3 +98,99 @@ if (numero1 % 2 === 0 && numero2 % 2 === 0) {
 } else { 
     console.log("Um número é par e o outro é ímpar.");
 }
+
+
+
+
+
+
+Laços de Repetição
+
+
+5. Escreva um programa em JavaScript que utilize um loop "while" para imprimir os quadrados dos números de 1 a 5. 
+
+
+
+
+
+
+let numero = 1;
+
+while (numero <= 5) {
+  let quadrado = numero * numero;
+  console.log("O quadrado de " + numero + " é " + quadrado);
+  numero++;
+}
+
+
+
+
+6. Crie uma função em JavaScript chamada imprimePares que recebe um número como parâmetro e imprime todos os números pares de 0 até
+esse número. Teste a função com um valor de sua escolha. (Utilize o laço de repetição for) 
+
+
+
+
+function imprimePares(numero) {
+  for (let i = 0; i <= numero; i++) {
+    if (i % 2 === 0) {
+      console.log(i);
+    }
+  }
+}
+
+imprimePares(10);
+
+
+Arrays 
+7. Crie um array em JavaScript com nomes de frutas. Em seguida, utilize um loop "for" para percorrer o array e imprimir cada nome de fruta. 
+let frutas = ["Maçã", "Banana", "Laranja", "Morango", "Uva"];
+
+for (let i = 0; i < frutas.length; i++) {
+  console.log(frutas[i]);
+}
+
+
+
+
+8. Inicie um array vazio em JavaScript chamado numeros. Utilize um loop "for" para adicionar os números de 1 a 5 ao array. Ao final, imprima o conteúdo do array. 
+let numeros = [];
+
+for (let i = 1; i <= 5; i++) {
+  numeros.push(i);
+}
+
+console.log(numeros);
+
+
+Funções 
+9. Escreva uma função em JavaScript chamada multiplicaElementos que recebe um array de números como parâmetro e retorna
+o resultado da multiplicação de todos os elementos do array. Teste a função com um array de sua escolha.
+
+
+
+function multiplicaElementos(array) {
+  let resultado = 1;
+  for (let i = 0; i < array.length; i++) {
+    resultado *= array[i];
+  }
+  return resultado;
+}
+
+let numeros = [6, 1, 5, 9];
+let resultadoDaMultiplicacao = multiplicaElementos(numeros);
+console.log(resultadoDaMultiplicacao);
+
+
+
+
+10. Escreva uma função chamada calculaMaiorNumero em JavaScript que recebe dois números como parâmetros e retorna o maior deles.
+Teste a função com diferentes pares de números.
+
+
+
+function calculaMaiorNumero(num1, num2) {
+  return Math.max(num1, num2);
+}
+
+console.log(calculaMaiorNumero(10, 5)); console.log(calculaMaiorNumero(20, 30)); console.log(calculaMaiorNumero(-6, -20)); 
