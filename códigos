@@ -71,7 +71,10 @@ switch (parseInt(diaSemana)){
         
 }
 
-3. Solicite ao usuário para inserir duas strings. Verifique se ambas têm o mesmo comprimento e se tiverem o mesmo comprimento, informe o resultado. 
+3. Solicite ao usuário para inserir duas strings. Verifique se ambas têm o mesmo comprimento e se tiverem o mesmo comprimento,
+informe o resultado. 
+
+
 var string1 = prompt("insira a primeira string:");
 var string2 = prompt("insira a segunda string:");
 if(string1.length===string2.length) {
@@ -105,8 +108,6 @@ if (numero1 % 2 === 0 && numero2 % 2 === 0) {
 
 
 Laços de Repetição
-
-
 5. Escreva um programa em JavaScript que utilize um loop "while" para imprimir os quadrados dos números de 1 a 5. 
 
 
