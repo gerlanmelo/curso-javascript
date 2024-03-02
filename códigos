@@ -1,0 +1,86 @@
+1. Crie uma lista com pelo menos 5 números. Realize operações como soma, multiplicação e divisão entre os elementos da lista e apresente os resultados. 
+
+var numero1 = 2
+var numero2 = 4
+var numero3 = 6
+var numero4 = 8
+var numero5 = 10
+
+console.log(numero1 + numero2)
+console.log(numero2 - numero3)
+console.log(numero3 * numero4)
+console.log(numero4 + numero5)
+console.log(numero5 / numero1)
+
+2. Solicite ao usuário para inserir um número e verifique o tipo de da variável. 
+var tipodevar = typeof 5;
+var numero = prompt("insira um número:");
+console.log("o tipo da variável é:" + tipodevar);
+
+
+
+
+ESTRUTURA CONDICIONAL 
+1. Crie um programa que pede ao usuário para inserir um número e, em seguida, verifica se é positivo, negativo ou zero. Se for positivo, verifique se é ímpar ou par. 
+
+let numero = prompt("Digite um número:"); 
+if (numero > 0) { 
+    if (numero % 2 === 0) {         console.log("O número é positivo e par.");
+    } else {
+        console.log("O número é positivo e ímpar.");
+    }
+} else if (numero < 0) { 
+    console.log("O número é negativo.");
+} else {     console.log("O número é zero.");
+}
+
+
+2. Peça ao usuário para inserir um dia da semana (usando números de 1 a 7) e, com base nesse número, informe o nome do dia correspondente. 
+const diaSemana = parseInt(prompt("Insira um número de 1 a 7 para representar um dia da semana:"));
+
+
+switch (parseInt(diaSemana)){
+    case 1:
+        console.log("segunda feira")
+        break;
+    case 2:
+        console.log("terça feira")
+        break;
+    case 3:
+        console.log("Quarta feira")
+        break;
+    case 4:
+        console.log("Quinta feira")
+        break;
+    case 5:
+        console.log("Sexta feira")
+        break;
+    case 6:
+        console.log("Sábado ")
+        break;
+    case 7:
+        console.log("Domingo")
+        break;
+        default:
+        console.log("número inválido")
+        
+}
+
+3. Solicite ao usuário para inserir duas strings. Verifique se ambas têm o mesmo comprimento e se tiverem o mesmo comprimento, informe o resultado. 
+var string1 = prompt("insira a primeira string:");
+var string2 = prompt("insira a segunda string:");
+if(string1.length===string2.length) {
+    console.log("As strings tem o mesmo tamanho");
+} else{ console.log("As strings não tem o mesmo tamanho"); 
+}
+
+4. Peça ao usuário para inserir dois números e, usando operadores lógicos, verifique se ambos são pares, ímpares ou se um é par e o outro é ímpar.meros e, usando operadores lógicos, verifique se ambos são pares, ímpares ou se um é par e o outro é ímpar
+let numero1 = prompt("Digite o primeiro número:");
+let numero2 = prompt("Digite o segundo número:");
+
+if (numero1 % 2 === 0 && numero2 % 2 === 0) { 
+    console.log("Ambos os números são pares.");
+} else if (numero1 % 2 !== 0 && numero2 % 2 !== 0) {     console.log("Ambos os números são ímpares.");
+} else { 
+    console.log("Um número é par e o outro é ímpar.");
+}
