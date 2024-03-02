@@ -108,7 +108,7 @@ if (numero1 % 2 === 0 && numero2 % 2 === 0) {
 
 
 Laços de Repetição
-6. Escreva um programa em JavaScript que utilize um loop "while" para imprimir os quadrados dos números de 1 a 5. 
+7. Escreva um programa em JavaScript que utilize um loop "while" para imprimir os quadrados dos números de 1 a 5. 
 
 
 
@@ -126,7 +126,7 @@ while (numero <= 5) {
 
 
 
-7. Crie uma função em JavaScript chamada imprimePares que recebe um número como parâmetro e imprime todos os números pares de 0 até
+8. Crie uma função em JavaScript chamada imprimePares que recebe um número como parâmetro e imprime todos os números pares de 0 até
 esse número. Teste a função com um valor de sua escolha. (Utilize o laço de repetição for) 
 
 
@@ -144,7 +144,7 @@ imprimePares(10);
 
 
 Arrays 
-8. Crie um array em JavaScript com nomes de frutas. Em seguida, utilize um loop "for" para percorrer o array e imprimir cada nome de fruta. 
+9. Crie um array em JavaScript com nomes de frutas. Em seguida, utilize um loop "for" para percorrer o array e imprimir cada nome de fruta. 
 let frutas = ["Maçã", "Banana", "Laranja", "Morango", "Uva"];
 
 for (let i = 0; i < frutas.length; i++) {
@@ -154,7 +154,7 @@ for (let i = 0; i < frutas.length; i++) {
 
 
 
-9. Inicie um array vazio em JavaScript chamado numeros. Utilize um loop "for" para adicionar os números de 1 a 5 ao array. Ao final, imprima o conteúdo do array. 
+10. Inicie um array vazio em JavaScript chamado numeros. Utilize um loop "for" para adicionar os números de 1 a 5 ao array. Ao final, imprima o conteúdo do array. 
 let numeros = [];
 
 for (let i = 1; i <= 5; i++) {
@@ -165,7 +165,7 @@ console.log(numeros);
 
 
 Funções 
-10. Escreva uma função em JavaScript chamada multiplicaElementos que recebe um array de números como parâmetro e retorna
+11. Escreva uma função em JavaScript chamada multiplicaElementos que recebe um array de números como parâmetro e retorna
 o resultado da multiplicação de todos os elementos do array. Teste a função com um array de sua escolha.
 
 
@@ -185,7 +185,8 @@ console.log(resultadoDaMultiplicacao);
 
 
 
-11. Escreva uma função chamada calculaMaiorNumero em JavaScript que recebe dois números como parâmetros e retorna o maior deles.
+12
+. Escreva uma função chamada calculaMaiorNumero em JavaScript que recebe dois números como parâmetros e retorna o maior deles.
 Teste a função com diferentes pares de números.
 
 
